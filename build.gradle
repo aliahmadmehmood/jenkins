@@ -3,11 +3,13 @@ plugins {
   id "com.moowork.node" version "1.2.0"
 }
 
+
 node {
-	download = true
-	version = "9.11.1"
-	npmVersion = "5.6.0"
+    download = true
+    version = "18.16.0"  // Use a more recent version
+    npmVersion = "9.5.0"  // Adjust npm version if necessary
 }
+
 
 //declare a build task
 task build
